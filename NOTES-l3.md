@@ -43,12 +43,12 @@
 
 ## 6. rebase -i     pick / squash і підсумкове повідомлення
                     D:\git-lab-3>git rebase -i HEAD~2
-                    [detached HEAD f5bd64a] WIP: чернетка - <span style="color:red;"> я бачу що повідомлення не те, доелось змінити за допомогою ammend і змінився хеш коміту, вибчате</span> 
+                    [detached HEAD f5bd64a] WIP: чернетка - P.S: я бачу що повідомлення не те, доелось змінити за допомогою ammend і змінився хеш коміту, вибчате
                     Date: Wed Oct 14 10:32:10 2026 +0300
                     1 file changed, 3 insertions(+), 1 deletion(-)
                     Successfully rebased and updated refs/heads/lab3/variant-1-Grabovenko.
                     
-                    <span style="color:green;Змінив повідомлення на правильне</span>
+                    Змінив повідомлення на правильне
                     ">D:\git-lab-3>git commit --amend
                     [lab3/variant-1-Grabovenko 8b6d439] Оновити контакт групи
                     Date: Wed Oct 14 10:32:10 2026 +0300
